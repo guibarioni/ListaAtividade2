@@ -59,10 +59,3 @@ Simulação de um pedido de pizza. O usuário seleciona  o tipo de pizza, tamanh
 - **Activity 2:** O usuário escolhe o tamanho e o método de pagamento.
 - **Activity 3:** Exibe o resumo do pedido com o valor total calculado.
 
----
-
-## Como Rodar o Projeto
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/repositorio.git
