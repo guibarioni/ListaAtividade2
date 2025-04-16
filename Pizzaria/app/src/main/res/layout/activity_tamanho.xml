@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:text="Escolha o tamanho:" android:textSize="18sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <RadioGroup android:id="@+id/rgTamanho" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbPequena" android:text="Pequena - R$ 25" />
+        <RadioButton android:id="@+id/rbMedia" android:text="Média - R$ 35" />
+        <RadioButton android:id="@+id/rbGrande" android:text="Grande - R$ 45" />
+    </RadioGroup>
+
+    <TextView android:text="Forma de Pagamento:" android:textSize="18sp"
+        android:layout_marginTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <RadioGroup android:id="@+id/rgPagamento" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbDinheiro" android:text="Dinheiro" />
+        <RadioButton android:id="@+id/rbCartao" android:text="Cartão" />
+    </RadioGroup>
+
+    <Button android:id="@+id/btnResumo" android:text="Ver Resumo"
+        android:layout_marginTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

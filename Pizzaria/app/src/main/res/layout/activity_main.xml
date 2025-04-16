@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="201dp"
+            android:layout_height="179dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Logo da Pizzaria"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="70dp"
+            android:text="Escolha o(s) tipo(s) de pizza:"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbCalabresa"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:text="Calabresa" />
+
+        <CheckBox
+            android:id="@+id/cbMarguerita"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:text="Marguerita" />
+
+        <CheckBox
+            android:id="@+id/cbPortuguesa"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:text="Portuguesa" />
+
+        <Button
+            android:id="@+id/btnAvancar"
+            android:layout_width="113dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="24dp"
+            android:text="Avançar" />
+    </LinearLayout>
+</ScrollView>
