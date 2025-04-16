@@ -11,8 +11,6 @@ A aplicação permite ao usuário marcar e desmarcar os produtos desejados para 
 - O usuário pode escolher produtos desejados usando CheckBox.
 - O valor total da compra é calculado automaticamente.
 
----
-
 ## 2. Calculadora de Aumento de Salário
 
 **Descrição:**  
@@ -23,8 +21,6 @@ A aplicação recebe o salário de um funcionário e calcula o novo salário em 
 - Escolhe um percentual de aumento.
 - O sistema calcula e mostra o novo aumento.
 
----
-
 ## 3. Registro de Clientes para Loja Virtual
 
 **Descrição:**  
@@ -33,9 +29,7 @@ Esta aplicação registra novos clientes para a loja "Tem de Tudo".
 **Funcionalidades:**  
 - **Activity 1:** Tela de boas-vindas.
 - **Activity 2:** Tela onde o usuário coloca o nome.
-- **Activity 3:** .
-  
----
+- **Activity 3:** Confirmação do cadastro.
 
 ## 4. Registro de Pedidos de Lanchonete
 
@@ -46,8 +40,6 @@ Aplicação em que se registra o pedido de novos clientes exibindo o que ele ped
 - **Activity 1:** Tela inicial com botão para iniciar pedido.
 - **Activity 2:**  Tela para o cliente escolher  o lanche e inserir o nome.
 - **Activity 3:** Resumo do pedido com nome do cliente e lanche selecionado.
-
----
 
 ## 5. Pedido de Pizza
 
